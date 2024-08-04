@@ -1,0 +1,12 @@
+<title>Document</title>
+<h1>Angular 2 App</h1>
+<p>{{title}}</p>
+<p>{{name}}</p>
+<p>{{age}}</p>
+<p>{{address}}</p>
+<app-components-test></app-components-test>
+<div class="form-group">
+  <label for="email">Email:</label>
+  <input type="email" class="form-control" id="email" placeholder="Enter your email" [(ngModel)]="email" (change)="onEmailChange($event)">
+</div>
+<div>{{email}}</div>
